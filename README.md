@@ -66,14 +66,14 @@ This isn't just a modification—it's a complete evolution that introduces game-
 ```json
 {
   "dependencies": {
-    "baileys-x": "latest"
+    "baileys-x": "github:nstar-y/bail"
   }
 }
 ```
 
 **Terminal installation:**
 ```bash
-npm install baileys-x
+npm install baileys-x@github:nstar-y/bail
 ```
 
 ### Import & Usage
@@ -376,7 +376,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
 
 Found a bug or have a feature request? **Cyril Tech** is here to help!
 
-🔗 **[Report Issues Here](https://github.com/nstar-y/Bail/issues)**
+🔗 **[Report Issues Here](https://github.com/DavidCyril1/baileys-x/issues)**
 
 Our team monitors issues 24/7 and provides lightning-fast responses!
 
@@ -398,7 +398,7 @@ Our team monitors issues 24/7 and provides lightning-fast responses!
 
 ---
 
-*Built with ❤️ by [Cyril Tech](https://cyril-tech.com) • Making the impossible, possible*
+*Built with ❤️ by [Cyril Tech](https://david-cyril.net.ng) • Making the impossible, possible*
 
 </div>
 # baileys-x
