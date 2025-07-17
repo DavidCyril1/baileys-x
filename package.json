@@ -1,6 +1,6 @@
 {
-  "name": "@davidcyriltech/baileys-x",
-  "version": "6.8.5",
+  "name": "baileys-x",
+  "version": "1.0.0",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
     "baileys", "baileys-mod", "wabot", "whatsapp",
