@@ -66,14 +66,14 @@ This isn't just a modification—it's a complete evolution that introduces game-
 ```json
 {
   "dependencies": {
-    "baileys-x": "github:nstar-y/bail"
+    "baileys-x": "latest"
   }
 }
 ```
 
 **Terminal installation:**
 ```bash
-npm install baileys-x@github:nstar-y/bail
+npm install baileys-x
 ```
 
 ### Import & Usage
