@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" alt="WhatsApp Channel" />
   </a>
 
-  <img src="https://img.shields.io/badge/Powered%20by-Cyril%20Tech-blue?style=for-the-badge&logo=lightning&logoColor=white" alt="Cyril Tech" />
+  <img src="https://img.shields.io/badge/Powered%20by-David%20Cyril%20Tech-blue?style=for-the-badge&logo=lightning&logoColor=white" alt="Cyril Tech" />
 
 </div>
 
@@ -28,7 +28,7 @@
 
 *Blazing fast • Feature-rich • Developer-friendly*
 
-**Baileys-X** is the next-generation WhatsApp Web API library that pushes the boundaries of what's possible. Built by **Cyril Tech** with cutting-edge enhancements and modern features.
+**Baileys-X** is the next-generation WhatsApp Web API library that pushes the boundaries of what's possible. Built by **David Cyril Tech** with cutting-edge enhancements and modern features.
 
 </div>
 
