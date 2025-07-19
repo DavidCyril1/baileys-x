@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp&logoColor=white&style=for-the-badge" alt="WhatsApp Channel" />
   </a>
 
-  <img src="https://img.shields.io/badge/Powered%20by-David%20Cyril%20Tech-blue?style=for-the-badge&logo=lightning&logoColor=white" alt="Cyril Tech" />
+  <img src="https://img.shields.io/badge/Powered%20by-David%20Cyril%20Tech-blue?style=for-the-badge&logo=lightning&logoColor=white" alt="David Cyril Tech" />
 
 </div>
 
@@ -28,7 +28,7 @@
 
 *Blazing fast • Feature-rich • Developer-friendly*
 
-**Baileys-X** is the next-generation WhatsApp Web API library that pushes the boundaries of what's possible. Built by **David Cyril Tech** with cutting-edge enhancements and modern features.
+**Baileys-X** is the next-generation WhatsApp Web API library that pushes the boundaries of what's possible. Built by **David David Cyril Tech** with cutting-edge enhancements and modern features.
 
 </div>
 
@@ -52,7 +52,7 @@
 
 ## ⚠️ Important Notice
 
-**Baileys-X** represents a revolutionary leap forward from the original Baileys library. While the original repository faced challenges and was eventually maintained by [WhiskeySockets](https://github.com/WhiskeySockets), **Cyril Tech** has completely reimagined the possibilities.
+**Baileys-X** represents a revolutionary leap forward from the original Baileys library. While the original repository faced challenges and was eventually maintained by [WhiskeySockets](https://github.com/WhiskeySockets), **David Cyril Tech** has completely reimagined the possibilities.
 
 This isn't just a modification—it's a complete evolution that introduces game-changing features and rock-solid performance improvements that weren't even conceptualized in the original codebase.
 
@@ -105,7 +105,7 @@ const { default: makeWASocket } = require("baileys-x")
 
 </div>
 
-> 🚀 **More revolutionary features are cooking in Cyril Tech's lab!**
+> 🚀 **More revolutionary features are cooking in David Cyril Tech's lab!**
 
 ---
 
@@ -130,7 +130,7 @@ console.log(metadata)
 await sock.newsletterUpdateDescription("abcd@newsletter", "🔥 New Epic Description")
 
 // Update name
-await sock.newsletterUpdateName("abcd@newsletter", "🚀 Cyril Tech Newsletter")
+await sock.newsletterUpdateName("abcd@newsletter", "🚀 David Cyril Tech Newsletter")
 
 // Update profile picture
 await sock.newsletterUpdatePicture("abcd@newsletter", buffer)
@@ -151,7 +151,7 @@ await sock.newsletterUnmute("abcd@newsletter")
 #### 🏗️ Newsletter Lifecycle
 ```typescript
 // Create newsletter
-const metadata = await sock.newsletterCreate("🔥 Cyril Tech Updates")
+const metadata = await sock.newsletterCreate("🔥 David Cyril Tech Updates")
 
 // Delete newsletter
 await sock.newsletterDelete("abcd@newsletter")
@@ -187,7 +187,7 @@ const buttons = [
 
 const buttonMessage = {
     text: "🎯 Choose your power-up!",
-    footer: '⚡ Powered by Cyril Tech',
+    footer: '⚡ Powered by David Cyril Tech',
     buttons,
     headerType: 1
 }
@@ -205,7 +205,7 @@ const buttons = [
 const buttonMessage = {
     image: { url: "https://example.com/cyril-tech.jpg" },
     caption: "🎨 Interactive image with buttons!",
-    footer: '🚀 Cyril Tech Innovation',
+    footer: '🚀 David Cyril Tech Innovation',
     buttons,
     headerType: 1
 }
@@ -223,7 +223,7 @@ const buttons = [
 const buttonMessage = {
     video: { url: "https://example.com/cyril-demo.mp4" },
     caption: "🎬 Interactive video experience!",
-    footer: '⚡ Cyril Tech Media',
+    footer: '⚡ David Cyril Tech Media',
     buttons,
     headerType: 1
 }
@@ -244,7 +244,7 @@ const interactiveButtons = [
      {
         name: "cta_url",
         buttonParamsJson: JSON.stringify({
-             display_text: "🌐 Visit Cyril Tech",
+             display_text: "🌐 Visit David Cyril Tech",
              url: "https://cyril-tech.com/"
         })
      },
@@ -259,7 +259,7 @@ const interactiveButtons = [
 ]
 
 const interactiveMessage = {
-    text: "🔥 Welcome to Cyril Tech!",
+    text: "🔥 Welcome to David Cyril Tech!",
     title: "🚀 Interactive Experience",
     footer: "⚡ Powered by Baileys-X",
     interactiveButtons
@@ -277,7 +277,7 @@ const interactiveButtons = [
       title: "🎯 Select Your Option",
       sections: [
         {
-          title: "🔥 Cyril Tech Services",
+          title: "🔥 David Cyril Tech Services",
           highlight_label: "⭐ Premium",
           rows: [
             {
@@ -300,7 +300,7 @@ const interactiveButtons = [
 ];
 
 const interactiveMessage = {
-    text: "🌟 Choose your Cyril Tech service!",
+    text: "🌟 Choose your David Cyril Tech service!",
     title: "🏆 Premium Services",
     footer: "⚡ Quality guaranteed",
     interactiveButtons
@@ -332,7 +332,7 @@ const media = [
 
 await sock.sendMessage(id, { 
     album: media, 
-    caption: "🎨 Cyril Tech Portfolio - Where Innovation Meets Excellence!" 
+    caption: "🎨 David Cyril Tech Portfolio - Where Innovation Meets Excellence!" 
 }, { quoted: null })
 ```
 
@@ -346,7 +346,7 @@ await sock.sendMessage(id, {
 ```typescript
 // Add that premium AI touch to your messages
 await sock.sendMessage(id, { 
-    text: "🤖 Hello! I'm powered by Cyril Tech's AI technology!", 
+    text: "🤖 Hello! I'm powered by David Cyril Tech's AI technology!", 
     ai: true 
 });
 ```
@@ -364,7 +364,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
     // Create your custom branded pairing code
     const customPairingCode = "CYRILTECH";
     const code = await sock.requestPairingCode(phoneNumber, customPairingCode);
-    console.log(`🔑 Your Cyril Tech Pairing Code: ${code?.match(/.{1,4}/g)?.join('-') || code}`);
+    console.log(`🔑 Your David Cyril Tech Pairing Code: ${code?.match(/.{1,4}/g)?.join('-') || code}`);
 }
 ```
 
@@ -374,7 +374,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
 
 ## 🐛 Issue Reporting
 
-Found a bug or have a feature request? **Cyril Tech** is here to help!
+Found a bug or have a feature request? **David Cyril Tech** is here to help!
 
 🔗 **[Report Issues Here](https://github.com/DavidCyril1/baileys-x/issues)**
 
@@ -384,7 +384,7 @@ Our team monitors issues 24/7 and provides lightning-fast responses!
 
 ## 📝 Important Notes
 
-**Baileys-X** maintains full backward compatibility with the original Baileys library while adding revolutionary new features. Everything from the original repository works seamlessly, but now with **Cyril Tech's** premium enhancements.
+**Baileys-X** maintains full backward compatibility with the original Baileys library while adding revolutionary new features. Everything from the original repository works seamlessly, but now with **David Cyril Tech's** premium enhancements.
 
 **Original Repository:** [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
 
@@ -540,7 +540,7 @@ WhatsApp provides a multi-device API that allows Baileys to be authenticated as 
 > You can customize browser name if you connect with **QR-CODE**, with `Browser` constant, we have some browsers config, **see [here](https://baileys.whiskeysockets.io/types/BrowsersMap.html)**
 
 ```javascript
-const { default: makeWASocket } = require("baileys-pro")
+const { default: makeWASocket } = require("baileys-x")
 
 
 const sock = makeWASocket({
@@ -561,7 +561,7 @@ If the connection is successful, you will see a QR code printed on your terminal
 The phone number can't have `+` or `()` or `-`, only numbers, you must provide country code
 
 ```javascript
-const { default: makeWASocket } = require("baileys-pro")
+const { default: makeWASocket } = require("baileys-x")
 
 const sock = makeWASocket({
     // can provide additional config here
@@ -662,8 +662,8 @@ You obviously don't want to keep scanning the QR code every time you want to con
 
 So, you can load the credentials to log back in:
 ```javascript
-const makeWASocket = require("baileys-pro").default;
-const { useMultiFileAuthState } = require("baileys-pro");
+const makeWASocket = require("baileys-x").default;
+const { useMultiFileAuthState } = require("baileys-x");
 
 // enable authDebug to display session logs
 const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys', { authDebug: true })
@@ -722,8 +722,8 @@ sock.ev.on('messages.upsert', ({ messages }) => {
 > This example includes basic auth storage too
 
 ```javascript
-const makeWASocket = require("baileys-pro").default;
-const { DisconnectReason, useMultiFileAuthState } = require("baileys-pro");
+const makeWASocket = require("baileys-x").default;
+const { DisconnectReason, useMultiFileAuthState } = require("baileys-x");
 const Boom = require('@hapi/boom');
 
 async function connectToWhatsApp () {
@@ -805,8 +805,8 @@ sock.ev.on('messages.update', event => {
 It can be used as follows:
 
 ```javascript
-const makeWASocket = require("baileys-pro").default;
-const { makeInMemoryStore } = require("baileys-pro");
+const makeWASocket = require("baileys-x").default;
+const { makeInMemoryStore } = require("baileys-x");
 // the store maintains the data of the WA connection in memory
 // can be written out to a file & read from it
 const store = makeInMemoryStore({ })
@@ -1567,7 +1567,7 @@ await sock.sendMessage(jid, {
 If you want to save the media you received
 ```javascript
 const { createWriteStream } = require('fs');
-const { downloadMediaMessage, getContentType } = require("baileys-pro");
+const { downloadMediaMessage, getContentType } = require("baileys-x");
 
 sock.ev.on('messages.upsert', async ({ [m] }) => {
     if (!m.message) return // if there is no text or media message
@@ -2242,7 +2242,7 @@ sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 
 ---
 
-*Built with ❤️ by [Cyril Tech](https://david-cyril.net.ng) • Making the impossible, possible*
+*Built with ❤️ by [David Cyril Tech](https://david-cyril.net.ng) • Making the impossible, possible*
 
 </div>
 # baileys-x
