@@ -1,24 +1,39 @@
 {
   "name": "baileys-x",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Custom Baileys WhatsApp API",
   "keywords": [
-    "baileys", "baileys-mod", "wabot", "whatsapp",
-    "js-whatsapp", "whatsapp-api", "whatsapp-web", "whatsapp-bot",
-    "automation", "multi-device"
+    "baileys",
+    "baileys-mod",
+    "wabot",
+    "whatsapp",
+    "js-whatsapp",
+    "whatsapp-api",
+    "whatsapp-web",
+    "whatsapp-bot",
+    "automation",
+    "multi-device"
   ],
-  "homepage": "https://github.com/DavidCyril1/baileys-x",
+  "homepage": "null",
+  "bugs": {
+    "url": "null"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidCyril1/baileys-x.git"
+    "url": "git+null"
   },
   "license": "MIT",
   "author": "David Cyril",
+  "type": "commonjs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
-    "lib/*",
-    "WAProto/*",
+    "lib/",
+    "WAProto/",
+    "WASignalGroup/",
     "engine-requirements.js"
   ],
   "scripts": {
@@ -101,11 +116,11 @@
       "optional": true
     }
   },
-  "packageManager": "yarn@1.22.19",
   "engines": {
     "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }

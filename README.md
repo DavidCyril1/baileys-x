@@ -2246,4 +2246,3 @@ sock.ws.on('CB:edge_routing,id:abcd,routing_info', (node: BinaryNode) => { })
 
 </div>
 # baileys-x
-
