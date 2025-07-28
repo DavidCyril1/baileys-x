@@ -5,7 +5,7 @@ on:
     paths:
       - 'package.json'
     branches:
-      - main  # Or your default branch
+      - main
 
 jobs:
   publish:
@@ -13,13 +13,23 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
           registry-url: 'https://registry.npmjs.org/'
+
+      - name: Update npm to match local version
+        run: npm install -g npm@11.4.2
+
+      - name: Debug info
+        run: |
+          echo "Node version: $(node --version)"
+          echo "npm version: $(npm --version)"
+          echo "Current directory: $(pwd)"
+          ls -la
 
       - name: Publish to npm
         run: npm publish --ignore-scripts
