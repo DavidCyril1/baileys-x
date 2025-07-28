@@ -1,9 +1,5 @@
 "use strict";
-console.log(`
-\x1b[37mCreated and maintained by Ibrahim Adams\x1b[0m
-\x1b[36m🇧 🇼 🇲   🇽 🇲 🇩\x1b[0m
-\x1b[90mCopyright © 2025 - 2026 BWM XMD\x1b[0m
-`);
+console.log(`Powered By Baileys-X`);
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
 if (k2 === undefined) k2 = k;
 var desc = Object.getOwnPropertyDescriptor(m, k);
